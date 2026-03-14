@@ -3,16 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start",
+    "start": "concurrently \"node proxy.js\" \"expo start --web\"",
+    "proxy": "node proxy.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/metro-runtime": "~55.0.6",
+    "@react-native-community/datetimepicker": "^8.6.0",
+    "@react-native-picker/picker": "^2.11.4",
+    "concurrently": "^9.2.1",
+    "cors": "^2.8.6",
     "expo": "~55.0.6",
     "expo-status-bar": "~55.0.4",
+    "express": "^5.2.1",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-web": "^0.21.0"
   },
   "private": true
 }
