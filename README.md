@@ -49,6 +49,9 @@ Switch to the **Absence** tab to log absence hours using your company's configur
 
 After logging entries, the app shows a **Timesheet Status** card for the selected date. If the status is *Open* or *Rejected* and there are entries, you can submit the timesheet for manager approval with one tap.
 
+### Demo Video
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/49e0fbd80090494b97b780df27d97082" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+https://www.loom.com/share/49e0fbd80090494b97b780df27d97082
 ---
 
 ## Tech Stack
